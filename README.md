@@ -39,8 +39,8 @@ This is a personal project I built to learn frontend development and API integra
 
 ```
 Vayora/
-├── public/
-│   └── index.html          # main page served to users
+├── index.html              # main page served to users
+├── about.html              # about page
 ├── src/
 │   ├── js/
 │   │   ├── weather-api.js  # API calls and data handling
@@ -71,7 +71,7 @@ cd vayora
 
 # 4. add your key to src/js/weather-api.js where it says YOUR_API_KEY
 
-# 5. open public/index.html in your browser — done
+# 5. open index.html in your browser — done
 ```
 
 no installs. no build tools. just open and run.
