@@ -213,3 +213,34 @@ body {
   margin-top: 6px;
   color: var(--text-light);
 }
+
+/* Weather Result Display */
+.weather-result {
+  text-align: center;
+  width: 100%;
+}
+
+.weather-result img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.weather-result h1 {
+  font-size: 3rem;
+  margin: 15px 0;
+  color: var(--primary-green);
+}
+
+.weather-result h2 {
+  font-size: 1.5rem;
+  color: var(--text-dark);
+  margin-bottom: 10px;
+}
+
+.weather-result p {
+  font-size: 1rem;
+  color: var(--text-light);
+  margin: 8px 0;
+  text-transform: capitalize;
+}

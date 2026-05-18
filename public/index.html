@@ -12,7 +12,7 @@
     <title>Vayora - Weather Platform</title>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/style.css" />
   </head>
   <body>
     <div class="container">
@@ -20,7 +20,7 @@
       <header>
         <div class="header-content">
           <h1 class="logo">
-            <img src="src/assets/icons/Screenshot 2026-05-15 171609.png" alt="Vayora logo" class="logo-img" />
+            <img src="../src/assets/icons/logo.png" alt="Vayora logo" class="logo-img" />
           </h1>
           <nav class="nav">
             <a href="#" class="nav-link">Home</a>
@@ -65,8 +65,8 @@
         <!-- Weather Info Box -->
         <div class="content-box box-2">
           <div class="box-inner">
-            <div class="loading-placeholder">
-              <p>Loading weather data...</p>
+            <div id="weatherResult" class="weather-result">
+              <p>Enter a city to see weather</p>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@
     </div>
 
     <!-- Scripts -->
-    <script src="src/js/weather-api.js"></script>
-    <script src="src/js/app.js"></script>
+    <script src="../src/js/weather-api.js"></script>
+    <script src="../src/js/app.js"></script>
   </body>
 </html>
