@@ -80,7 +80,7 @@ no installs. no build tools. just open and run.
 
 ## screenshots
 
-![Vayora UI](./src/assets/images/ui-screenshot.png)
+![Vayora UI](./image.png)
 
 ---
 

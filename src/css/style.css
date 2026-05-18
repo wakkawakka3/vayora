@@ -244,3 +244,48 @@ body {
   margin: 8px 0;
   text-transform: capitalize;
 }
+
+/* About Page Styles */
+.about-content {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.about-text {
+  font-size: 1rem;
+  color: var(--text-dark);
+  line-height: 1.6;
+  text-align: left;
+}
+
+.about-list {
+  list-style: none;
+  font-size: 1rem;
+  color: var(--text-dark);
+  line-height: 1.8;
+  text-align: left;
+}
+
+.about-list li {
+  margin: 12px 0;
+}
+
+.about-section {
+  margin: 50px 0;
+  padding: 30px;
+  background: var(--bg-light);
+  border-radius: 15px;
+  border-left: 4px solid var(--primary-green);
+}
+
+.about-section h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: var(--primary-green);
+  margin-bottom: 15px;
+}
+
+.about-section p {
+  font-size: 1rem;
+  color: var(--text-dark);
+  line-height: 1.7;
+}
