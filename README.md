@@ -2,7 +2,7 @@
 
 > your fav weather buddy — real-time forecasts, simplified.
 
-Live site → **[coming soon]**
+Live site → [coming soon](https://vayora-kappa.vercel.app/)
 
 ---
 
